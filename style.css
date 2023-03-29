@@ -343,11 +343,8 @@ form label, form legend{
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+    .caja, .principal, .video {
         width: auto;
-    }
-    .lista-diferenciales, .imagen-diferenciales{
-        width: 100%;
     }
 
 }
