@@ -264,7 +264,7 @@ form label, form legend{
 .fotoperfil{
     width: 250px;
     margin: 0 50px 20px 0;
-    float:right;
+    float:inline-end;
     border-radius: 3px;
     box-shadow: 6px 4px 10px;
 }
@@ -336,16 +336,15 @@ form label, form legend{
     margin: 0 auto;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:940px){
     h1{
         text-align: center;
     }
     nav{
-        position: static;
+        position:unset;
     }
-    .caja, .principal, .video {
-        width: auto;
+    .caja, .principal, .video, body {
+        width: 400%;
     }
-
 }
 
