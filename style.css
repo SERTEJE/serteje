@@ -72,6 +72,14 @@ main{
     text-align: center;
 }
 
+.bandera{
+    width: 250px;
+    margin: 0 50px 20px 0;
+    float:inline-end;
+    border-radius: 3px;
+    box-shadow: 6px 4px 10px;
+}
+
 .desafio1{
     width: 100%;
     padding: 10px;
